@@ -31,7 +31,7 @@
 
 
                                 @if ($tasks->count())
-                                    <table class="min-w-full divide-y divide-gray-300 border-b mb-4">
+                                    <table class="min-w-full divide-y divide-gray-300 mt-2">
                                         <thead>
                                             <tr>
                                                 <th scope="col"
