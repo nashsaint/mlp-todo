@@ -1,23 +1,16 @@
 ## MLP To-DO - Instructions
 
-You must demonstrate the following abilities/skills: make models, controllers, migrations, HTML, CSS, blade, Git commits, blade templates, etc. 
-
-**1. Fork this repo**
-
-**2. Build front-end**
-
-   Layout must be as follows:
+**1. Install**
    
-   ![Alt text](assets/site-layout.png?raw=true "Title")
-   Please note that the above image and logo are in the 'assets' folder.
+   - composer i
+   - npm i
 
-**3. Build To-Do list functionality** 
+**2. Run**
 
-     A user should be able to
-     * Create a task.
-     * Delete a task.
-     * Mark a task as completed.
-     
+   - php artisan serve
+   - npm run dev
 
-**Good Luck !!! Once done, please send us the link of your repo.**
-   
+
+Or use docker/sail
+
+![Alt text](assets/result-layout.png?raw=true "Title")
