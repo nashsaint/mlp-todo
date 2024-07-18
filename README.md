@@ -14,3 +14,4 @@
 Or use docker/sail
 
 ![Alt text](assets/result-layout.png?raw=true "Title")
+<img src="assets/result-layout-mobile.png"  width="300">
