@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\TaskCompleteRequest;
 use App\Http\Requests\TaskStoreRequest;
 use App\Models\Task;
 use App\Services\TaskService;
-use Illuminate\Http\Request;
 use Throwable;
 
 class TaskController extends Controller
@@ -32,16 +30,6 @@ class TaskController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  TaskStoreRequest  $request
@@ -57,28 +45,6 @@ class TaskController extends Controller
             },
             fn (Throwable $th) => abort(500, $th->getMessage()),
         );
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
     }
 
     /**
