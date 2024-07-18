@@ -1,0 +1,23 @@
+.btn {
+    @apply rounded-md px-4 py-2 text-sm font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2;
+
+    &-primary {
+        @apply bg-sky-700 hover:bg-sky-600;
+    }
+    &-warning {
+        @apply bg-orange-700 hover:bg-orange-600;
+    }
+    &-success {
+        @apply bg-green-600 hover:bg-green-500;
+    }
+    &-error {
+        @apply bg-red-700 hover:bg-red-600;
+    }
+
+    &-icon {
+        @apply px-1 py-1.5; 
+        svg {
+            @apply h-4;
+        }
+    }
+}

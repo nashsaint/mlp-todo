@@ -1,0 +1,20 @@
+table {
+    thead {
+        tr {
+            th {
+                &.thin {
+                    @apply py-3.5 w-1 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0;
+                }
+            }
+        }
+    }
+    tbody {
+        tr {
+            td {
+                &.action {
+                    @apply relative whitespace-nowrap w-24 py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0;
+                }
+            }
+        }
+    }
+}
